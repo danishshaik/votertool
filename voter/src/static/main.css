@@ -1,0 +1,116 @@
+.body {
+
+}
+.drop {
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sound-card {
+	background-color: #FEFCF9;
+	max-width: 350px;
+	border-radius: 20px
+}
+
+.waveform {
+	width: 100%;
+}
+
+.opinion-btn {
+	border: none;
+	width:100%;
+	height: 100px;
+	max-width: 100px;
+	border-radius: 100%;
+}
+
+.opinion-btn:focus {
+	border: none;
+	outline: none;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.opinion-btn:active {
+	border: none !important;
+	outline: none !important;
+}
+
+.opinion-btn:not(:disabled):not(.disabled):active:focus {
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+.agree {
+	background: #AFE0BE;
+}
+
+.agree:hover {
+	background: #78cb91;
+}
+
+.agree:active {
+	background: #78cb91 !important;
+}
+
+.agree:focus {
+	border: none;
+	background: #78cb91;
+}
+
+.disagree {
+	background: #FF8F8F;
+}
+
+.disagree:hover {
+	background: #ff5c5c;
+}
+
+.disagree:focus {
+	background: #ff5c5c;
+}
+
+.disagree:active {
+	background: #ff5c5c !important;
+}
+
+
+.control-rect {
+	width: 4px;
+	height: 19px;
+	background: #F4ECE3;
+	border-radius: 5px;
+}
+
+.control-triangle {
+	width: 25px;
+	height: 25px;
+}
+
+.skip-forward {
+	transform: rotate(180deg);
+}
+
+.circle {
+	border-radius: 100%;
+	height:80px;
+	width:80px;
+	background-color: #F4ECE3;
+}
+
+.play-triangle {
+	transform: rotate(180deg);
+	filter: brightness(0) saturate(100%) invert(100%) sepia(14%) saturate(3583%) hue-rotate(312deg) brightness(116%) contrast(97%);
+	width: 30px;
+}
+
+.controls {
+	height: 50px;
+}
+
+.controls-bar {
+	border-radius: 25px;
+	background-color: #FEFCF9;
+	height: 50px;
+	z-index: -1;
+	width: 100%;
+	position: absolute;
+}
+
